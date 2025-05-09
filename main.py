@@ -49,7 +49,7 @@ while True:
     local = time.localtime()
     date = f"{local.tm_year}-0{local.tm_mon}-0{local.tm_mday}"
     # Nałożenie tekstu który wyświetla ilość czasu twarzy w kadrze
-    cv2.putText(frame, message, (0, 20),  cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 255), 2)
+    cv2.putText(frame, message, (0, 20),  cv2.FONT_HERSHEY_SIMPLEX, 0.5, (125, 0, 255), 2)
     # Nałożenie tekstu który wyświetla aktualną date
     cv2.putText(frame, date, (510, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
     # Pokazanie kamery
