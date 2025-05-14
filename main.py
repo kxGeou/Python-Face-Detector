@@ -34,7 +34,7 @@ while True:
         if start_time == None:
             start_time = time.time()
         elapsed = time.time() - start_time
-        message = f"Czas na kamerze {int(elapsed)}"
+        message = f"Czas twarzy na kamerze {int(elapsed)}"
     else:
         start_time = None
         message = "Brak twarzy w kadrze"
